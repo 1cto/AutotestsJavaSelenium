@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>TestAlert</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width? initial-scale=1.0">
+</head>
+
+<body>
+
+<script>
+    function myFunc() {
+        result = prompt("PROMPT");
+        alert(result);
+    }
+</script>
+
+<div>
+    <a id="a" onclick="alert('Hello, I`m alert!')" href="#">Link 1</a>
+    <a id="b" onclick="myFunc()" href="#">Link 2</a>
+    <a id="c" onclick="confirm('Hello, I`m confirm!')" href="#">Link 3</a>
+</div>
+</body>
