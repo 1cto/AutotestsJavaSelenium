@@ -5,12 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ccfb957-7a45-4623-9d91-f0c9db8e75d9" name="Changes" comment="напрацювання по курсу https://www.youtube.com/watch?v=L2jMIJy0u90&#10;датапровайдер, ретрай, залежности, асерти">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-junit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-commandline-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-generator-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-plugin-api-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-jackson-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-pojo-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-lang3-3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-text-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/jetty-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-0.34.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-util-0.34.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpclient-4.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpcore-4.4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-xml-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-yaml-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-module-jaxb-annotations-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-http-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-io-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-server-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-util-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/opencsv-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/snakeyaml-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/tika-core-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/jira-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/allure-jira-commons-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/converter-jackson-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okhttp-3.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okio-1.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/junit-xml-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/trx-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/xctest-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/allure-jira-commons-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/converter-jackson-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okhttp-3.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okio-1.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/xray-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/olx_home/OlxApartmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/olx_home/OlxApartmentsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/searchapartment/SearchApartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/searchapartment/SearchApartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,14 +144,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/olein/IdeaProjects/Selenium_Java2/testng.xml",
+    "last_opened_file_path": "C:/Users/olein/IdeaProjects/Selenium_Java2/src/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "MavenSettings"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Properties"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.testng">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olein\IdeaProjects\Selenium_Java2\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olein\IdeaProjects\Selenium_Java2\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.testng2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Selenium_Java2" />
@@ -74,8 +192,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testng2" type="TestNG">
+      <module name="Selenium_Java2" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng2.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.testng2" />
       <item itemvalue="TestNG.testng" />
     </list>
     <recent_temporary>

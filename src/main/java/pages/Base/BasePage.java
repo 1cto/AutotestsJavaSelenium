@@ -1,4 +1,4 @@
-package pages.base;
+package pages.Base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

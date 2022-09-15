@@ -10,21 +10,78 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.3.0</version>
+            <version>7.6.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+            <version>1.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
     <properties>
+        <allure.version>2.19.0</allure.version>
+        <java.version>17</java.version>
+        <aspectj.version>1.9.5</aspectj.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <suiteXmlFiles>
+                        src/test/testng2.xml
+                    </suiteXmlFiles>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <propertiesFilePath>src/test/resources/allure.properties</propertiesFilePath>
+                    <allureDownloadUrl>https://github.com/allure-framework/allure/releases/download/2.10.0/allure-2.10.0.zip</allureDownloadUrl>
+                    <resultsDirectory>allure-results</resultsDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
