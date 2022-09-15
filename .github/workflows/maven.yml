@@ -28,3 +28,9 @@ jobs:
         Set-DisplayResolution -Width 1920 -Height 1080 -Force
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Archive allure results
+      uses: actions/upload-artifact@v3
+      with:
+        name: allure-results
+        path: |
+          target/allure-results
