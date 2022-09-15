@@ -13,9 +13,10 @@ public class CommonActions {
     public static WebDriver createDriver(){
         WebDriver driver = null;
 
+
         switch (PLATFORM_AND_BROWSER){
             case "win_mozilla":
-                System.setProperty("webdriver.gecko.driver","C:\\Autotests\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver.exe");
                 driver = new FirefoxDriver();
                 break;
             default:
