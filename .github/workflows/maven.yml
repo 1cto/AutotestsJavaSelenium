@@ -56,5 +56,6 @@ jobs:
       run: | 
         mkdir "$HOME/.ssh"
         chcp 65001 
-        echo "${{ secrets.KEY_OLDEV }}" > "$HOME\.ssh\key"
+        echo "${{ secrets.KEY_OLDEV }}"
+        echo "${{ secrets.KEY_OLDEV }}" > "$HOME\.ssh\key"        
         cd target/site/allure-maven-plugin && rsync -e "ssh -i $HOME\.ssh\key -o StrictHostKeyChecking=no" --archive --compress --delete . oleynik_d@oldev.dp.ua:/var/www/oldev.dp.ua/html/    
