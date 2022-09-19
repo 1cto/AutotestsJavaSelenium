@@ -15,15 +15,17 @@ jobs:
     runs-on: windows-latest
 
     steps: 
+    - name: Install SSH Key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.KEY_OLDEV }}
+        known_hosts: unnecessary
+
+    - name: Adding Known Hosts
+      run: ssh-keyscan -H ${{ secrets.SSH_HOST }}  >> "$HOME\.ssh\key"
+        
     - name: Deploy
-    # Setup key & Deploy    
-      if: ${{ always() }}
-      run: | 
-        mkdir "$HOME/.ssh"
-        chcp 65001 
-        echo "key from variable:"
-        echo "${{ secrets.KEY_OLDEV }}"
-        echo "${{ secrets.KEY_OLDEV }}" > "$HOME\.ssh\key"        
-        echo "key from file:"
-        type "$HOME\.ssh\key"
-        #cd target/site/allure-maven-plugin && rsync -e "ssh -i $HOME\.ssh\key -o StrictHostKeyChecking=no" --archive --compress --delete . oleynik_d@oldev.dp.ua:/var/www/oldev.dp.ua/html/    
+      run: |
+        mkdir "$HOME\html"
+        echo "Hi, Arseniy!!! It's me!!!" >> "$HOME\html\index.html"
+        cd "$HOME\html" && rsync --archive --compress --delete . oleynik_d@${{ secrets.SSH_HOST }}:/var/www/${{ secrets.SSH_HOST }}/html/    
