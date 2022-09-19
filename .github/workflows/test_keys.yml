@@ -34,4 +34,4 @@ jobs:
       run: |
         mkdir "$HOME\html"
         echo "Hi, Arseniy!!! It's me!!!" >> "$HOME\html\index.html"
-        cd "$HOME\html" && rsync --archive --compress --delete . oleynik_d@${{ secrets.SSH_HOST }}:/var/www/${{ secrets.SSH_HOST }}/html/    
+        cd "$HOME\html" && rsync -e "ssh -i $HOME\.ssh\key -o StrictHostKeyChecking=no" --archive --compress --delete . oleynik_d@oldev.dp.ua:/var/www/oldev.dp.ua/html/   
