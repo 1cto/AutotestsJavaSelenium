@@ -15,6 +15,12 @@ jobs:
     runs-on: windows-latest
 
     steps: 
+    - name: Setup Rsync
+      # You may pin to the exact commit or the version.
+      # uses: GuillaumeFalourd/setup-rsync@f4c78c8dab33a2106fcca0ec2758c3861007a567
+      if: ${{ always() }}
+      uses: GuillaumeFalourd/setup-rsync@v1  
+      
     - name: Install SSH Key
       uses: shimataro/ssh-key-action@v2
       with:
