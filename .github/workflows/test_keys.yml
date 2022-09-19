@@ -1,0 +1,29 @@
+# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps: 
+    - name: Deploy
+    # Setup key & Deploy    
+      if: ${{ always() }}
+      run: | 
+        mkdir "$HOME/.ssh"
+        chcp 65001 
+        echo "key from variable:"
+        echo "${{ secrets.KEY_OLDEV }}"
+        echo "${{ secrets.KEY_OLDEV }}" > "$HOME\.ssh\key"        
+        echo "key from file:"
+        type "$HOME\.ssh\key"
+        #cd target/site/allure-maven-plugin && rsync -e "ssh -i $HOME\.ssh\key -o StrictHostKeyChecking=no" --archive --compress --delete . oleynik_d@oldev.dp.ua:/var/www/oldev.dp.ua/html/    
