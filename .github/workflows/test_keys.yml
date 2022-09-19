@@ -26,9 +26,10 @@ jobs:
       with:
         key: ${{ secrets.KEY_OLDEV }}
         known_hosts: unnecessary
+        name: key
 
     - name: Adding Known Hosts
-      run: ssh-keyscan -H ${{ secrets.SSH_HOST }}  >> "$HOME\.ssh\key"
+      run: ssh-keyscan -H ${{ secrets.SSH_HOST }}  >> "$HOME\.ssh\known_hosts"
         
     - name: Deploy
       run: |
