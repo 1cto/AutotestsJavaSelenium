@@ -62,5 +62,5 @@ jobs:
         
     - name: Deploy
       run: |
-        cd target/site/allure-maven-plugin && rsync -e "ssh -i $HOME\.ssh\key -o StrictHostKeyChecking=no" --archive --compress --delete . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/${{ secrets.SSH_HOST }}/html/   
+        cd target/site/allure-maven-plugin && rsync -e "ssh -i $HOME\.ssh\key -o StrictHostKeyChecking=no" --archive --compress --delete . ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/${{ secrets.SSH_HOST }}/html/TestOlxSeleniumJava   
 
